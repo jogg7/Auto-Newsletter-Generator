@@ -2,59 +2,58 @@
 Generate an HTML newsletter featuring information from NASA’s APOD
 
 <p> The goal is to automatically generate an HTML newsletter featuring information from NASA’s APOD. 
-In this project, we will jinjify the template, python will pull down APOD information from NASA’s API, then combine the two things to create a newsletter. </p>
+In this project, we will jinjify the template, python will pull down APOD information from NASA’s API, then combine the two things to create a newsletter.
+The images and information of the newsletter website changes everytime the python script is ran.</p>
 
 <h2> Tools Used </h2>
 
-<p> NASA API, Jinja, Python, HTML, CSS, Unbuntu Linux </p>
+<p> NASA API, Jinja2, Python, HTML, CSS, Unbuntu Linux, Nginx, Virtual Box </p>
 
-<h2>Program walk-through:</h2>
+<h2>Full Python Script Used</h2>
 
+<a href=https://github.com/jogg7/Auto-Newsletter-Generator/blob/main/proj02.py> View Code </a>
 
-<h1>JWipe - Disk Sanitization</h1>
+<h2>Bootstrap File</h2>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<a href=https://github.com/jogg7/Auto-Newsletter-Generator/blob/main/bootstrap.css> View Code </a>
 
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
+<h2>Finished HTML File</h2>
 
+<a href=https://github.com/jogg7/Auto-Newsletter-Generator/blob/main/newsletter.html> View Code </a>
 
-<h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
-
+<h2>Program walk-through</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Receive Data from NASA using API: <br/>
+<img src="https://github.com/jogg7/PNGs/blob/main/1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p align="center">
+Parse and Download the Data from NASA: <br/>
+<img src="https://github.com/jogg7/PNGs/blob/main/2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p align="center">
+Load Jinjs2 Template and create HTML file: <br/>
+<img src="https://github.com/jogg7/PNGs/blob/main/3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p align="center">
+Final Result looking at HTML file through a browser: <br/>
+<img src="https://github.com/jogg7/PNGs/blob/main/4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p align="center">
+Delete everything and rebuild when Python Scripted is Executed Again: <br/>
+<img src="https://github.com/jogg7/PNGs/blob/main/5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+
+
+
+
