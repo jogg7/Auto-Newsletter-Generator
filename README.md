@@ -3,7 +3,7 @@ Generate an HTML newsletter featuring information from NASA’s APOD API.
 
 <p> The goal is to automatically generate an HTML newsletter featuring information from NASA’s APOD. 
 In this project, we will jinjify the template, python will pull down APOD information from NASA’s API, then combine the two things to create a newsletter.
-The images and information of the newsletter website changes everytime the python script is ran.</p>
+The images and information of the newsletter website changes every time the python script is ran.</p>
 
 <h2> Tools Used </h2>
 
